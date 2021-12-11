@@ -13,8 +13,10 @@ def destination_helper(destination) -> dict:
         "id": str(destination["_id"]),
         "coords": destination["coords"],
         "url": destination["url"],
-        "name": destination["name"],
-        "description": destination["description"],
+        "title": destination["title"],
+        "content": destination["content"],
+        "country": destination["country"],
+        "region": destination["region"]
     }
 
 
